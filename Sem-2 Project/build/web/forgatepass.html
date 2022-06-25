@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/login.css">
+          <!--<link rel="stylesheet" href="feedback.css">-->
+        <style>
+            .card-box .details{
+                display: block;
+                margin-bottom: 5px;
+                }
+                .card-box input{
+                    height: 45px;
+                    width: 100%;
+                    outline: none;
+                    border-radius: 5px;
+                    border: 1px solid #ccc;
+                    padding-left: 15px;
+                    font-size: 16px;
+                    border-bottom-width: 2px;
+                    transition:all 0.3s ease;
+                }
+                .title{
+                    text-align: center;
+                    font-size: 30px;
+                    padding-top: 24px;
+                    letter-spacing: 0.5px;
+                    font-family:serif;
+
+                }
+                .login-div{
+                    width: 430px;
+                    height: 300px;
+                    padding: 35px 35px 35px 35px;
+                    border-radius: 40px;
+                    background-color: #ecf0f3;
+                    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+
+                }
+                form .button input{
+                            padding: 10px 0;
+                            margin-top: 20px;                            
+                            margin-left: 170px;
+                            height: 70%;
+                            width: 50%;                            
+                            color: #fff;
+                            border: none;
+                            font-size: 18px;
+                            font-weight: 500;
+                            border-radius: 5px;
+                            letter-spacing: 1px;
+                            background:linear-gradient(135deg,#9b59b6,#02c8db);
+                            text-align: center;
+                }
+                form .button input:hover{
+                    background: linear-gradient(135deg,#9b59b6,#154360);
+                }    
+        </style>
+    </head>
+    <body>
+        <form action="mailmsg.jsp" method="GET">
+            <table>
+        <div class="login-div">
+           
+            <div class="title"> Forgate Password </div>
+            <div class="filds">
+                
+                 <div class="card-box">
+                     <span class="details" style="font-weight:10px;">Email</span>
+                                <input type="email" name="email" placeholder="Enter Email..">
+                 </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="SUBMIT">
+            </div>
+        </div>
+            </table>
+        </form>
+    </body>
+</html>

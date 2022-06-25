@@ -1,0 +1,20 @@
+SMAP
+registration_005fform_jsp.java
+JSP
+*S JSP
+*F
++ 0 registration_form.jsp
+registration_form.jsp
+*L
+1,106:45
+107,9:152
+115,4:161
+119:165,3
+120:168
+121:169,3
+122:172
+123:173,6
+124,2:179
+125,4:181
+128,92:185
+*E

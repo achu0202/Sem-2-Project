@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 8, 2022, 1:08:54 PM
+    Author     : Archana
+*/
+
+
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.left{
+    width: 162px;
+    //margin: auto;
+}
+#rating-value{
+    height: 30px;
+    width: 100%;
+   
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition:all 0.3s ease;
+    border-color: #9b59b6;
+ }
+.rating{
+    border: none;
+    float: left;
+    
+}
+.rating > input{
+    display: none;
+}
+.rating > label:before{
+    content: '\f005'; 
+    font-family:FontAwesome;
+    margin: 5px;
+    font-size:3rem;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 8px;
+    //border-color:black;   
+}
+.rating > .half:before{
+    content: '\f089';
+    position: absolute;
+    cursor: pointer;
+}
+.rating > label{
+    color:white;
+    border-color:#000;
+    float: right;
+    cursor: pointer;
+    //width: 40px;
+}
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label{
+    color:blue;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label,:hover,
+.rating > input:hover ~ input:checked ~ label,
+.rating > input:checked ~ input:hover ~ label{
+     
+    
+    
+    
+    
+}
+/*
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+.rating-wrap
+{
+    max-width: 480px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.2);
+    text-align: center;
+}*/
+
+
